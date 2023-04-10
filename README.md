@@ -1,16 +1,16 @@
-"""
-# This project consist of only one function module called Blogger
 
-# The module have two functions: fetch_blog and lower_case_to_upper_case
+ This project consist of only one function module called Blogger
 
-# The fetch_blog when called in an interactive elixir shell returns the information about the blog from "https://medium.com/podiihq/quick-connect-to-your-amazon-ec2-linux-instance-through-the-command-line-6c682960ef91" for example  
+ The module have two functions: fetch_blog and lower_case_to_upper_case
 
-# open the elixir interactive shell 
+ The fetch_blog when called in an interactive elixir shell returns the information about the blog from "https://medium.com/podiihq/quick-connect-to-your-amazon-ec2-linux-instance-through-the-command-line-6c682960ef91" for example  
 
-# $ iex -S mix
+ open the elixir interactive shell 
+
+ $ iex -S mix
 
 
-# iex> Blogger.fetch_blog()
+ iex> Blogger.fetch_blog()
 %HTTPoison.Response{
   body: "<!doctype html>...",
   headers: [    
@@ -31,7 +31,7 @@
 
 
 
-# lower_case_to_upper_case takes in a collection of strings to lower_case and return the same collectio to upper_case for example when you call the function like this: 
-# iex(1)> Blogger.lower_case_to_upper_case(["cow", "goat", "sheep"])
+ lower_case_to_upper_case takes in a collection of strings to lower_case and return the same collectio to upper_case for example when you call the function like this: 
+ iex(1)> Blogger.lower_case_to_upper_case(["cow", "goat", "sheep"])
 ["COW", "GOAT", "SHEEP"]
 
